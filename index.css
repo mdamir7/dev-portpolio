@@ -4,6 +4,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+}
+/* common css */
+main {
+  margin-top: 10vh;
+  margin-left: 10vh;
+}
+ul {
+  display: flex;
+}
 ul > li {
   list-style: none;
+  margin: 8px;
 }
