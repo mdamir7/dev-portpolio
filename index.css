@@ -27,3 +27,9 @@ ul > li {
   margin-top: 10vh;
   display: flex;
 }
+.content {
+  flex-basis: 40%;
+}
+.img {
+  flex-basis: 60%;
+}
