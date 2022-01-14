@@ -15,6 +15,9 @@ a {
 main {
   margin: 10vh 10vh 0vh 10vh;
 }
+h1 {
+  font-size: 35px;
+}
 /* common css */
 
 ul {
@@ -31,10 +34,16 @@ ul > li {
 .content {
   flex-basis: 40%;
 }
+.hero-text {
+  margin-top: 0.8rem;
+}
 .img {
   flex-basis: 60%;
 }
-
+.img img {
+  float: right;
+  max-width: 100%;
+}
 .btn {
   border-radius: 115px;
   padding: 8px 13px 8px 13px;
@@ -47,4 +56,15 @@ ul > li {
 }
 button > a > i {
   margin-left: 0.7rem;
+}
+.logo {
+  text-align: center;
+  margin-top: 5vh;
+  border-top: 1px solid yellow;
+  border-bottom: 1px solid yellow;
+  padding: 25px 0 25px 0;
+}
+.logo img {
+  margin-right: 2rem;
+  width: 70px;
 }
