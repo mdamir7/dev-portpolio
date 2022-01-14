@@ -23,3 +23,7 @@ ul > li {
   list-style: none;
   margin: 8px;
 }
+.hero {
+  margin-top: 10vh;
+  display: flex;
+}
