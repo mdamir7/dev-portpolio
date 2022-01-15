@@ -68,3 +68,7 @@ button > a > i {
   margin-right: 2rem;
   width: 70px;
 }
+.gallary {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
