@@ -1,0 +1,34 @@
+@media only screen and (max-width: 600px) {
+  main {
+    margin: 3vh 3vh 0vh 3vh;
+  }
+  .menu {
+    display: none;
+  }
+  .second-menu {
+    visibility: visible;
+  }
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .content {
+    order: 1;
+  }
+  .gallary {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid {
+    background: #ffff;
+    gap: 2px;
+  }
+  .grid img {
+    align-items: center;
+  }
+  .second-hero {
+    flex-direction: column-reverse;
+  }
+  .second-img img {
+    width: 90%;
+  }
+}
