@@ -101,3 +101,25 @@ h3 {
   color: rgb(218, 79, 24);
   font-size: 0.9rem;
 }
+.see-more-btn {
+  float: right;
+  border-radius: 0;
+  color: black;
+}
+.see-more-btn a,
+.i {
+  color: black;
+  background-color: coral;
+
+  color: black !important;
+}
+.second-hero {
+  flex-direction: row-reverse;
+}
+.second-img {
+  text-align: left;
+}
+.second-img img {
+  float: left;
+  max-width: 100%;
+}
